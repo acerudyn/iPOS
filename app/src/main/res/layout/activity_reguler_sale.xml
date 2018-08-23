@@ -127,10 +127,20 @@
         android:id="@+id/btnConfirm"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/frameRegulerSale"
         android:layout_below="@+id/frameRegulerSale"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/button_corners_mask"
         android:text="@string/btn_trx_confirm" />
+
+    <Button
+        android:id="@+id/btnConfirmTip"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnConfirm"
+        android:layout_alignBottom="@+id/btnConfirm"
+        android:layout_alignEnd="@+id/frameRegulerSale"
+        android:background="@drawable/button_corners_mask"
+        android:text="@string/btn_trx_confirm_tip" />
 
 </RelativeLayout>
