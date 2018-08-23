@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/app_act_main_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_toolbar_height"
+        android:background="@color/colorAccent"
+        android:paddingLeft="@dimen/app_padding_left"
+        android:paddingRight="@dimen/app_padding_right">
+
+        <ImageView
+            android:id="@+id/imgViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_action_back" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/txt_view_void"
+            android:textColor="@android:color/background_light" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgViewCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_act_main_actionbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@mipmap/ic_home_cc" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgViewCard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_view_void_card" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_view_void_card2" />
+
+    <ImageView
+        android:id="@+id/imgViewPaypal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imgViewCard"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/round_corners_mask"
+        android:elevation="3dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/ic_payment_paypal" />
+
+    <ImageView
+        android:id="@+id/imgViewMaestro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/imgViewPaypal"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/round_corners_mask"
+        android:elevation="3dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:layout_toEndOf="@+id/imgViewPaypal"
+        app:srcCompat="@mipmap/ic_payment_maestro" />
+
+    <ImageView
+        android:id="@+id/imgViewJcb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/imgViewMaestro"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/imgViewMaestro"
+        android:background="@drawable/round_corners_mask"
+        android:elevation="3dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/ic_payment_jcb" />
+
+    <TextView
+        android:id="@+id/txtViewPaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgViewPaypal"
+        android:layout_alignStart="@+id/imgViewPaypal"
+        android:layout_toStartOf="@+id/imgViewMaestro"
+        android:elevation="3dp"
+        android:paddingBottom="5dp"
+        android:text="@string/txt_payment_paypal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtViewMaestro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgViewMaestro"
+        android:layout_alignTop="@+id/txtViewPaypal"
+        android:layout_toStartOf="@+id/imgViewJcb"
+        android:elevation="3dp"
+        android:paddingBottom="5dp"
+        android:text="@string/txt_payment_maestro"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtViewJcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgViewJcb"
+        android:layout_alignEnd="@+id/imgViewJcb"
+        android:layout_alignStart="@+id/imgViewJcb"
+        android:elevation="3dp"
+        android:paddingBottom="5dp"
+        android:text="@string/txt_payment_jcb"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imgViewVisa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imgViewPaypal"
+        android:layout_below="@+id/imgViewPaypal"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/round_corners_mask"
+        android:elevation="3dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/ic_payment_visa" />
+
+    <ImageView
+        android:id="@+id/imgViewCardOnly"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imgViewMaestro"
+        android:layout_alignTop="@+id/imgViewVisa"
+        android:background="@drawable/round_corners_mask"
+        android:elevation="3dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/ic_payment_card_only" />
+
+    <ImageView
+        android:id="@+id/imgViewContactless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imgViewJcb"
+        android:layout_alignTop="@+id/imgViewCardOnly"
+        android:background="@drawable/round_corners_mask"
+        android:elevation="3dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/ic_payment_contactless" />
+
+    <TextView
+        android:id="@+id/txtViewVisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgViewVisa"
+        android:layout_alignEnd="@+id/imgViewVisa"
+        android:layout_alignStart="@+id/imgViewVisa"
+        android:elevation="3dp"
+        android:paddingBottom="5dp"
+        android:text="@string/txt_payment_visa"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtViewGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgViewCardOnly"
+        android:layout_alignEnd="@+id/imgViewCardOnly"
+        android:layout_alignStart="@+id/imgViewCardOnly"
+        android:elevation="3dp"
+        android:paddingBottom="5dp"
+        android:text="@string/txt_payment_card_only"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtViewBtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgViewContactless"
+        android:layout_alignEnd="@+id/imgViewContactless"
+        android:layout_alignStart="@+id/imgViewContactless"
+        android:elevation="3dp"
+        android:paddingBottom="5dp"
+        android:text="@string/txt_payment_contactless"
+        android:textAlignment="center" />
+
+</RelativeLayout>

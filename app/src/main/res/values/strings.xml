@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">iPOS Beps</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txt_view_void">Void</string>
+
+    <string name="txt_view_card_only">Card Only</string>
+    <string name="txt_view_contactless">Contactless</string>
+    <string name="txt_view_void_card">Please Swipe/Dip/Tap Your Card</string>
+    <string name="txt_view_void_card2">Or Choose Payment Other Method Below</string>
+    <string name="txt_view_void_contactless">Please Tap Your Card</string>
+
+    <string name="txt_view_RegulerSale">Reguler Sale</string>
+    <string name="txt_view_pan">PAN</string>
+    <string name="txt_edit_pan">5432-****-**56-7890</string>
+    <string name="txt_view_exp_date">Exp. Date</string>
+    <string name="txt_edit_exp_date">07/22</string>
+    <string name="txt_view_card_name">Akhirudin Muhammad</string>
+    <string name="txt_view_amount">Amount</string>
+    <string name="txt_edit_amount">100.000</string>
+    <string name="btn_trx_confirm">CONFIRM</string>
+
+    <string name="txt_view_settlement">Settlement</string>
+    <string name="txt_view_adjustment">Adjustment</string>
+    <string name="txt_view_trx">Transactions</string>
+    <string name="txt_view_refund">Refund</string>
+    <string name="txt_view_pre">Pre-Auth</string>
+    <string name="btn_home_more_menu">MORE MENU</string>
+    <string name="btn_home_settlement">SETTLEMENT</string>
+    <string name="btn_home_function">FUNCTION</string>
+
+    <string name="txt_payment_paypal">Paypal</string>
+    <string name="txt_payment_visa">Visa</string>
+    <string name="txt_payment_maestro">Maestro</string>
+    <string name="txt_payment_contactless">Contactless</string>
+    <string name="txt_payment_card_only">Card Only</string>
+    <string name="txt_payment_jcb">Jcb</string>
+
+</resources>
