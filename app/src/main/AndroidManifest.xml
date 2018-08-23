@@ -22,7 +22,8 @@
         <activity android:name=".RegulerSaleActivity" />
         <activity android:name=".CardOnlyActivity" />
         <activity android:name=".ContactlessActivity" />
-        <activity android:name=".RegulerSaleConfirmActivity"></activity>
+        <activity android:name=".RegulerSaleConfirmActivity" />
+        <activity android:name=".RegulerSaleTipActivity"></activity>
     </application>
 
 </manifest>
