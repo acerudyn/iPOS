@@ -23,7 +23,9 @@
         <activity android:name=".CardOnlyActivity" />
         <activity android:name=".ContactlessActivity" />
         <activity android:name=".RegulerSaleConfirmActivity" />
-        <activity android:name=".RegulerSaleTipActivity"></activity>
+        <activity android:name=".RegulerSaleTipActivity" />
+        <activity android:name=".TrxSuccessActivity" />
+        <activity android:name=".TrxFailedActivity"></activity>
     </application>
 
 </manifest>
