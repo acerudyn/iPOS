@@ -29,16 +29,23 @@ class MainActivity : AppCompatActivity() {
         false
     }
 
-    internal lateinit var imgViewVoid: ImageView
+    internal lateinit var imgViewPayment: ImageView
+    internal lateinit var imgViewSale: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        imgViewVoid = findViewById<View>(R.id.imgViewVoid) as ImageView
+        imgViewPayment = findViewById<View>(R.id.imgViewPayment) as ImageView
+        imgViewSale = findViewById<View>(R.id.imgViewSale) as ImageView
 
-        imgViewVoid.setOnClickListener {
+        imgViewPayment.setOnClickListener {
             val intent = Intent(this, VoidActivity::class.java)
+            startActivity(intent)
+        }
+
+        imgViewSale.setOnClickListener {
+            val intent = Intent(this, RegulerSaleActivity::class.java)
             startActivity(intent)
         }
 

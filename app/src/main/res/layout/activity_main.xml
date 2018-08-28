@@ -53,7 +53,7 @@
         app:srcCompat="@mipmap/ic_home_promo_new" />
 
     <ImageView
-        android:id="@+id/imgViewVoid"
+        android:id="@+id/imgViewPayment"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignStart="@+id/imgViewPromo"
@@ -69,10 +69,10 @@
         app:srcCompat="@mipmap/ic_home_void" />
 
     <ImageView
-        android:id="@+id/imgViewJcb"
+        android:id="@+id/imgViewSale"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignTop="@+id/imgViewVoid"
+        android:layout_alignTop="@+id/imgViewPayment"
         android:layout_centerHorizontal="true"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
@@ -80,15 +80,15 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:paddingTop="10dp"
-        app:srcCompat="@mipmap/ic_home_settlement" />
+        app:srcCompat="@mipmap/ic_home_sale" />
 
     <ImageView
         android:id="@+id/imgViewAdjustment"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignTop="@+id/imgViewJcb"
+        android:layout_alignTop="@+id/imgViewSale"
         android:layout_marginStart="17dp"
-        android:layout_toEndOf="@+id/imgViewJcb"
+        android:layout_toEndOf="@+id/imgViewSale"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
         android:paddingBottom="15dp"
@@ -101,24 +101,24 @@
         android:id="@+id/txtViewVoid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imgViewVoid"
-        android:layout_alignEnd="@+id/imgViewVoid"
-        android:layout_alignStart="@+id/imgViewVoid"
+        android:layout_alignBottom="@+id/imgViewPayment"
+        android:layout_alignEnd="@+id/imgViewPayment"
+        android:layout_alignStart="@+id/imgViewPayment"
         android:elevation="3dp"
         android:paddingBottom="5dp"
-        android:text="@string/txt_view_void"
+        android:text="@string/txt_view_payment"
         android:textAlignment="center" />
 
     <TextView
-        android:id="@+id/txtViewSettlement"
+        android:id="@+id/txtViewSale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imgViewJcb"
-        android:layout_alignStart="@+id/imgViewJcb"
+        android:layout_alignBottom="@+id/imgViewSale"
+        android:layout_alignStart="@+id/imgViewSale"
         android:layout_toStartOf="@+id/imgViewAdjustment"
         android:elevation="3dp"
         android:paddingBottom="5dp"
-        android:text="@string/txt_view_settlement"
+        android:text="@string/txt_view_sale"
         android:textAlignment="center" />
 
     <TextView
@@ -137,8 +137,8 @@
         android:id="@+id/imgViewTransactions"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignStart="@+id/imgViewVoid"
-        android:layout_below="@+id/imgViewVoid"
+        android:layout_alignStart="@+id/imgViewPayment"
+        android:layout_below="@+id/imgViewPayment"
         android:layout_marginTop="17dp"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
@@ -152,7 +152,7 @@
         android:id="@+id/imgViewMaestro"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignStart="@+id/imgViewJcb"
+        android:layout_alignStart="@+id/imgViewSale"
         android:layout_alignTop="@+id/imgViewTransactions"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"

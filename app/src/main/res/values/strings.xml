@@ -3,7 +3,6 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="txt_view_void">Void</string>
 
     <string name="txt_view_card_only">Card Only</string>
     <string name="txt_view_contactless">Contactless</string>
@@ -42,6 +41,9 @@
     <string name="btn_trx_yes">YES</string>
     <string name="btn_trx_no">NO</string>
 
+    <string name="txt_view_void">Void</string>
+    <string name="txt_view_payment">Payment</string>
+    <string name="txt_view_sale">Sale</string>
     <string name="txt_view_settlement">Settlement</string>
     <string name="txt_view_adjustment">Adjustment</string>
     <string name="txt_view_trx">Transactions</string>
