@@ -11,6 +11,7 @@ class RegulerSaleTipActivity : AppCompatActivity() {
 
     internal lateinit var imgViewBack: ImageView
     internal lateinit var btnSignature: Button
+    internal lateinit var btnPinEntry: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +19,7 @@ class RegulerSaleTipActivity : AppCompatActivity() {
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
         btnSignature = findViewById<View>(R.id.btnSignature) as Button
+        btnPinEntry = findViewById<View>(R.id.btnPinEntry) as Button
 
         imgViewBack.setOnClickListener {
             val intent = Intent(this, RegulerSaleActivity::class.java)
@@ -26,6 +28,11 @@ class RegulerSaleTipActivity : AppCompatActivity() {
 
         btnSignature.setOnClickListener {
             val intent = Intent(this, TrxFailedActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnPinEntry.setOnClickListener {
+            val intent = Intent(this, PinTrxActivity::class.java)
             startActivity(intent)
         }
     }
