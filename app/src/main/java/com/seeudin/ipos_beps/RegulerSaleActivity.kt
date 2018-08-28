@@ -22,7 +22,7 @@ class RegulerSaleActivity : AppCompatActivity() {
         btnConfirmTip = findViewById<View>(R.id.btnConfirmTip) as Button
 
         imgViewBack.setOnClickListener {
-            val intent = Intent(this, VoidActivity::class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
 

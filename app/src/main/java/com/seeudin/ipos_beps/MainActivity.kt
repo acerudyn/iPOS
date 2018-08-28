@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         imgViewSale = findViewById<View>(R.id.imgViewSale) as ImageView
 
         imgViewPayment.setOnClickListener {
-            val intent = Intent(this, VoidActivity::class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
 

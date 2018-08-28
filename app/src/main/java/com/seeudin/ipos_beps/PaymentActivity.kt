@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 
-class VoidActivity : AppCompatActivity() {
+class PaymentActivity : AppCompatActivity() {
 
     internal lateinit var imgViewBack: ImageView
     internal lateinit var imgViewCard: ImageView
@@ -15,7 +15,7 @@ class VoidActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_void)
+        setContentView(R.layout.activity_payment)
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
         imgViewCard = findViewById<View>(R.id.imgViewCard) as ImageView

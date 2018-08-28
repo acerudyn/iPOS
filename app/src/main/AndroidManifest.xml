@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".VoidActivity" />
+        <activity android:name=".PaymentActivity" />
         <activity android:name=".RegulerSaleActivity" />
         <activity android:name=".CardOnlyActivity" />
         <activity android:name=".ContactlessActivity" />
