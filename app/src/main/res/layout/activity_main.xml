@@ -83,7 +83,7 @@
         app:srcCompat="@mipmap/ic_home_sale" />
 
     <ImageView
-        android:id="@+id/imgViewAdjustment"
+        android:id="@+id/imgViewVoid"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignTop="@+id/imgViewSale"
@@ -95,7 +95,7 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:paddingTop="10dp"
-        app:srcCompat="@mipmap/ic_home_tip_adjustment" />
+        app:srcCompat="@mipmap/ic_home_transactions" />
 
     <TextView
         android:id="@+id/txtViewVoid"
@@ -115,7 +115,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imgViewSale"
         android:layout_alignStart="@+id/imgViewSale"
-        android:layout_toStartOf="@+id/imgViewAdjustment"
+        android:layout_toStartOf="@+id/imgViewVoid"
         android:elevation="3dp"
         android:paddingBottom="5dp"
         android:text="@string/txt_view_sale"
@@ -125,12 +125,12 @@
         android:id="@+id/txtViewAdjustment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imgViewAdjustment"
-        android:layout_alignEnd="@+id/imgViewAdjustment"
-        android:layout_alignStart="@+id/imgViewAdjustment"
+        android:layout_alignBottom="@+id/imgViewVoid"
+        android:layout_alignEnd="@+id/imgViewVoid"
+        android:layout_alignStart="@+id/imgViewVoid"
         android:elevation="3dp"
         android:paddingBottom="5dp"
-        android:text="@string/txt_view_adjustment"
+        android:text="@string/txt_view_void"
         android:textAlignment="center" />
 
     <ImageView
@@ -146,7 +146,7 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:paddingTop="10dp"
-        app:srcCompat="@mipmap/ic_home_transactions" />
+        app:srcCompat="@mipmap/ic_home_tip_adjustment" />
 
     <ImageView
         android:id="@+id/imgViewMaestro"
@@ -166,7 +166,7 @@
         android:id="@+id/imgViewPreAuth"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignStart="@+id/imgViewAdjustment"
+        android:layout_alignStart="@+id/imgViewVoid"
         android:layout_alignTop="@+id/imgViewMaestro"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
@@ -185,7 +185,7 @@
         android:layout_alignStart="@+id/imgViewTransactions"
         android:elevation="3dp"
         android:paddingBottom="5dp"
-        android:text="@string/txt_view_trx"
+        android:text="@string/txt_view_adjustment"
         android:textAlignment="center" />
 
     <TextView

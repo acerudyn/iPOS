@@ -20,6 +20,8 @@
     <string name="txt_view_trx_invalid_msg2">Do You Want to Try Again..?</string>
     <string name="txt_view_pin">Pin Entry</string>
     <string name="txt_view_pin_desc">Enter Your PIN</string>
+    <string name="txt_view_pwd">Password</string>
+    <string name="txt_view_pwd_desc">Input Your Password</string>
 
     <string name="txt_view_RegulerSale">Reguler Sale</string>
     <string name="txt_view_RegulerSaleConfirm">Reguler Sale Confirm</string>

@@ -27,7 +27,8 @@
         <activity android:name=".TrxSuccessActivity" />
         <activity android:name=".TrxFailedActivity" />
         <activity android:name=".PinTrxActivity" />
-        <activity android:name=".PinInvalidActivity"></activity>
+        <activity android:name=".PinInvalidActivity" />
+        <activity android:name=".PasswordTrxActivity"></activity>
     </application>
 
 </manifest>
