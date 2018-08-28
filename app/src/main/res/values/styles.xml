@@ -15,6 +15,7 @@
     </style>
     <style name="ImageButton">
     </style>
+
     <style name="ImageButton.Normal">
         <item name="android:layout_width">@dimen/app_function_entry_icon_width</item>
         <item name="android:layout_height">@dimen/app_function_entry_icon_height</item>

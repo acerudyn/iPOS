@@ -17,7 +17,7 @@ class TrxFailedActivity : AppCompatActivity() {
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
 
         imgViewBack.setOnClickListener {
-            val intent = Intent(this, RegulerSaleTipActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

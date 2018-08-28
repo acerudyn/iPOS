@@ -169,7 +169,7 @@
         android:text="@string/btn_trx_signature" />
 
     <Button
-        android:id="@+id/btnConfirm"
+        android:id="@+id/btnPinEntry"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btnSignature"

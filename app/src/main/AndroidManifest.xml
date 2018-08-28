@@ -25,7 +25,9 @@
         <activity android:name=".RegulerSaleConfirmActivity" />
         <activity android:name=".RegulerSaleTipActivity" />
         <activity android:name=".TrxSuccessActivity" />
-        <activity android:name=".TrxFailedActivity"></activity>
+        <activity android:name=".TrxFailedActivity" />
+        <activity android:name=".PinTrxActivity" />
+        <activity android:name=".PinInvalidActivity"></activity>
     </application>
 
 </manifest>

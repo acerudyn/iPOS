@@ -9,6 +9,7 @@
     <string name="txt_view_contactless">Contactless</string>
     <string name="txt_view_trx_success">Transaction Success</string>
     <string name="txt_view_trx_failed">Transaction Failed</string>
+    <string name="txt_view_trx_invalid_pin">Invalid PIN</string>
     <string name="txt_view_void_card">Please Swipe/Dip/Tap Your Card</string>
     <string name="txt_view_void_card2">Or Choose Payment Other Method Below</string>
     <string name="txt_view_void_contactless">Please Tap Your Card</string>
@@ -16,6 +17,10 @@
     <string name="txt_view_trx_success_msg2">Don\'t Forget to Pick Your Card</string>
     <string name="txt_view_trx_failed_msg">Transaction Failed !</string>
     <string name="txt_view_trx_failed_msg2">Connection Error</string>
+    <string name="txt_view_trx_invalid_msg">Invalid PIN !</string>
+    <string name="txt_view_trx_invalid_msg2">Do You Want to Try Again..?</string>
+    <string name="txt_view_pin">Pin Entry</string>
+    <string name="txt_view_pin_desc">Enter Your PIN</string>
 
     <string name="txt_view_RegulerSale">Reguler Sale</string>
     <string name="txt_view_RegulerSaleConfirm">Reguler Sale Confirm</string>
@@ -34,7 +39,8 @@
     <string name="txt_view_qustion_pin">Do You Want to Enter Pin..?</string>
     <string name="btn_trx_signature">SIGNATURE</string>
     <string name="btn_trx_pin_entry">PIN ENTRY</string>
-
+    <string name="btn_trx_yes">YES</string>
+    <string name="btn_trx_no">NO</string>
 
     <string name="txt_view_settlement">Settlement</string>
     <string name="txt_view_adjustment">Adjustment</string>

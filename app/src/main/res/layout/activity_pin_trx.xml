@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/app_act_main_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_toolbar_height"
+        android:background="@color/colorAccent"
+        android:paddingLeft="@dimen/app_padding_left"
+        android:paddingRight="@dimen/app_padding_right">
+
+        <ImageView
+            android:id="@+id/imgViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_action_back" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/txt_view_pin"
+            android:textColor="@android:color/background_light" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/app_act_main_actionbar"
+        android:layout_marginTop="75dp"
+        android:text="@string/txt_view_pin_desc"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        app:pinAnimationType="popIn"
+        app:pinCharacterMask="*"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
