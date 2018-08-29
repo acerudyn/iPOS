@@ -42,6 +42,8 @@
     <string name="btn_trx_pin_entry">PIN ENTRY</string>
     <string name="btn_trx_yes">YES</string>
     <string name="btn_trx_no">NO</string>
+    <string name="txt_view_trx_type">Trx Type</string>
+    <string name="txt_edit_trx_type">Reguler Sale</string>
 
     <string name="txt_view_void">Void</string>
     <string name="txt_view_payment">Payment</string>
@@ -54,6 +56,7 @@
     <string name="btn_home_more_menu">MORE MENU</string>
     <string name="btn_home_settlement">SETTLEMENT</string>
     <string name="btn_home_function">FUNCTION</string>
+    <string name="btn_home_enter">ENTER</string>
 
     <string name="txt_payment_paypal">Paypal</string>
     <string name="txt_payment_visa">Visa</string>
