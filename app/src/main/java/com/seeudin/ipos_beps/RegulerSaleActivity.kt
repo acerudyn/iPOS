@@ -18,7 +18,7 @@ class RegulerSaleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_reguler_sale)
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
-        btnConfirm = findViewById<View>(R.id.btnPinEntry) as Button
+        btnConfirm = findViewById<View>(R.id.btnCancel) as Button
         btnConfirmTip = findViewById<View>(R.id.btnConfirmTip) as Button
 
         imgViewBack.setOnClickListener {

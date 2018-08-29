@@ -37,15 +37,18 @@
     <string name="txt_view_tip">Tip</string>
     <string name="txt_edit_amount">100.000</string>
     <string name="txt_edit_tip">10.000</string>
+    <string name="txt_view_qustion_pin">Do You Want to Enter Pin..?</string>
+    <string name="txt_view_trx_type">Trx Type</string>
+    <string name="txt_edit_trx_type">Reguler Sale</string>
+
     <string name="btn_trx_confirm">CONFIRM</string>
     <string name="btn_trx_confirm_tip">CONFIRM WITH TIP</string>
-    <string name="txt_view_qustion_pin">Do You Want to Enter Pin..?</string>
     <string name="btn_trx_signature">SIGNATURE</string>
     <string name="btn_trx_pin_entry">PIN ENTRY</string>
     <string name="btn_trx_yes">YES</string>
     <string name="btn_trx_no">NO</string>
-    <string name="txt_view_trx_type">Trx Type</string>
-    <string name="txt_edit_trx_type">Reguler Sale</string>
+    <string name="btn_trx_cancel">CANCEL</string>
+    <string name="btn_trx_void">VOID</string>
 
     <string name="txt_view_void">Void</string>
     <string name="txt_view_payment">Payment</string>

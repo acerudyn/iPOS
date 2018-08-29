@@ -142,23 +142,23 @@
     </FrameLayout>
 
     <Button
-        android:id="@+id/btnPinEntry"
+        android:id="@+id/btnCancel"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/frameRegulerSale"
         android:layout_below="@+id/frameRegulerSale"
         android:layout_marginTop="25dp"
-        android:background="@drawable/button_corners_mask"
-        android:text="@string/btn_trx_confirm" />
+        android:background="@drawable/button_corners_mask_orange"
+        android:text="@string/btn_trx_cancel" />
 
     <Button
-        android:id="@+id/btnConfirmTip"
+        android:id="@+id/btnVoid"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnPinEntry"
-        android:layout_alignBottom="@+id/btnPinEntry"
+        android:layout_alignBaseline="@+id/btnCancel"
+        android:layout_alignBottom="@+id/btnCancel"
         android:layout_alignEnd="@+id/frameRegulerSale"
         android:background="@drawable/button_corners_mask"
-        android:text="@string/btn_trx_confirm_tip" />
+        android:text="@string/btn_trx_void" />
 
 </RelativeLayout>
