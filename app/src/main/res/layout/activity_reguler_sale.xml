@@ -124,7 +124,7 @@
     </FrameLayout>
 
     <Button
-        android:id="@+id/btnCancel"
+        android:id="@+id/btnConfirm"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/frameRegulerSale"
@@ -137,8 +137,8 @@
         android:id="@+id/btnConfirmTip"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnCancel"
-        android:layout_alignBottom="@+id/btnCancel"
+        android:layout_alignBaseline="@+id/btnConfirm"
+        android:layout_alignBottom="@+id/btnConfirm"
         android:layout_alignEnd="@+id/frameRegulerSale"
         android:background="@drawable/button_corners_mask"
         android:text="@string/btn_trx_confirm_tip" />

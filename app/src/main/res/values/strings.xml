@@ -28,6 +28,7 @@
     <string name="txt_view_RegulerSale">Reguler Sale</string>
     <string name="txt_view_RegulerSaleConfirm">Reguler Sale Confirm</string>
     <string name="txt_view_RegulerSaleTip">Reguler Sale With Tip</string>
+    <string name="txt_view_Refund">Refund</string>
     <string name="txt_view_pan">PAN</string>
     <string name="txt_edit_pan">5432-****-**56-7890</string>
     <string name="txt_view_exp_date">Exp. Date</string>

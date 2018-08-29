@@ -30,7 +30,8 @@
         <activity android:name=".PinInvalidActivity" />
         <activity android:name=".PasswordTrxActivity" />
         <activity android:name=".VoidActivity" />
-        <activity android:name=".PassIncorrectActivity"></activity>
+        <activity android:name=".PassIncorrectActivity" />
+        <activity android:name=".RefundActivity"></activity>
     </application>
 
 </manifest>

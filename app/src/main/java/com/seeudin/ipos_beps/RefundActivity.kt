@@ -7,32 +7,25 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 
-class VoidActivity : AppCompatActivity() {
+class RefundActivity : AppCompatActivity() {
 
     internal lateinit var imgViewBack: ImageView
-    internal lateinit var btnCancel: Button
-    internal lateinit var btnVoid: Button
+    internal lateinit var btnConfirm: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_void)
+        setContentView(R.layout.activity_refund)
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
-        btnCancel = findViewById<View>(R.id.btnConfirm) as Button
-        btnVoid = findViewById<View>(R.id.btnVoid) as Button
+        btnConfirm = findViewById<View>(R.id.btnConfirm) as Button
 
         imgViewBack.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        btnCancel.setOnClickListener {
-            val intent = Intent(this, TrxFailedActivity::class.java)
-            startActivity(intent)
-        }
-
-        btnVoid.setOnClickListener {
-            val intent = Intent(this, TrxSuccessActivity::class.java)
+        btnConfirm.setOnClickListener {
+            val intent = Intent(this, PinTrxActivity::class.java)
             startActivity(intent)
         }
 

@@ -29,10 +29,15 @@ class PasswordTrxActivity : AppCompatActivity() {
         }
 
         btnEnter.setOnClickListener {
-            if (pwdEntry.text.toString() == "Bahana911") {
+            if (pwdEntry.text.toString() == "Void1234") {
                 Toast.makeText(this@PasswordTrxActivity, "SUCCESS", Toast.LENGTH_SHORT).show()
                 pwdEntry.setText(null)
                 val intent = Intent(this, VoidActivity::class.java)
+                startActivity(intent)
+            } else if (pwdEntry.text.toString() == "Refund1234") {
+                Toast.makeText(this@PasswordTrxActivity, "SUCCESS", Toast.LENGTH_SHORT).show()
+                pwdEntry.setText(null)
+                val intent = Intent(this, RefundActivity::class.java)
                 startActivity(intent)
             } else {
                 Toast.makeText(this@PasswordTrxActivity, "INVALID", Toast.LENGTH_SHORT).show()

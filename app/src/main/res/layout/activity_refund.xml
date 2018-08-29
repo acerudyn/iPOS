@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/txt_view_RegulerSaleTip"
+            android:text="@string/txt_view_Refund"
             android:textColor="@android:color/background_light" />
 
     </RelativeLayout>
@@ -35,7 +35,7 @@
     <FrameLayout
         android:id="@+id/frameRegulerSale"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="340dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/app_act_main_actionbar"
         android:layout_marginLeft="10dp"
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="240dp"
             android:text="@string/txt_view_amount"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -117,65 +117,20 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="204dp"
+            android:layout_marginTop="224dp"
             android:text="@string/txt_edit_amount"
-            android:textSize="16sp" />
-
-        <ImageView
-            android:id="@+id/imgViewLine2"
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_marginTop="295dp"
-            app:srcCompat="@mipmap/line" />
-
-        <TextView
-            android:id="@+id/textViewQustionPin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="330dp"
-            android:text="@string/txt_view_qustion_pin"
-            android:textAlignment="center" />
-
-        <TextView
-            android:id="@+id/textViewTip"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="255dp"
-            android:text="@string/txt_view_tip"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextTip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="240dp"
-            android:text="@string/txt_edit_tip"
             android:textSize="16sp" />
 
     </FrameLayout>
 
     <Button
-        android:id="@+id/btnSignature"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/frameRegulerSale"
-        android:layout_below="@+id/frameRegulerSale"
-        android:layout_marginTop="23dp"
-        android:background="@drawable/button_corners_mask_orange"
-        android:text="@string/btn_trx_signature" />
-
-    <Button
         android:id="@+id/btnConfirm"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnSignature"
-        android:layout_alignBottom="@+id/btnSignature"
-        android:layout_alignEnd="@+id/frameRegulerSale"
+        android:layout_below="@+id/frameRegulerSale"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
         android:background="@drawable/button_corners_mask"
-        android:text="@string/btn_trx_pin_entry" />
+        android:text="@string/btn_trx_confirm" />
 
 </RelativeLayout>

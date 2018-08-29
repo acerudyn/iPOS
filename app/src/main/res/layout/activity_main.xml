@@ -134,7 +134,7 @@
         android:textAlignment="center" />
 
     <ImageView
-        android:id="@+id/imgViewTransactions"
+        android:id="@+id/imgViewAdjustment"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignStart="@+id/imgViewPayment"
@@ -149,11 +149,11 @@
         app:srcCompat="@mipmap/ic_home_tip_adjustment" />
 
     <ImageView
-        android:id="@+id/imgViewMaestro"
+        android:id="@+id/imgViewRefund"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignStart="@+id/imgViewSale"
-        android:layout_alignTop="@+id/imgViewTransactions"
+        android:layout_alignTop="@+id/imgViewAdjustment"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
         android:paddingBottom="15dp"
@@ -167,7 +167,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignStart="@+id/imgViewVoid"
-        android:layout_alignTop="@+id/imgViewMaestro"
+        android:layout_alignTop="@+id/imgViewRefund"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
         android:paddingBottom="15dp"
@@ -180,9 +180,9 @@
         android:id="@+id/txtViewTransactions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imgViewTransactions"
-        android:layout_alignEnd="@+id/imgViewTransactions"
-        android:layout_alignStart="@+id/imgViewTransactions"
+        android:layout_alignBottom="@+id/imgViewAdjustment"
+        android:layout_alignEnd="@+id/imgViewAdjustment"
+        android:layout_alignStart="@+id/imgViewAdjustment"
         android:elevation="3dp"
         android:paddingBottom="5dp"
         android:text="@string/txt_view_adjustment"
@@ -192,9 +192,9 @@
         android:id="@+id/txtViewRefund"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imgViewMaestro"
-        android:layout_alignEnd="@+id/imgViewMaestro"
-        android:layout_alignStart="@+id/imgViewMaestro"
+        android:layout_alignBottom="@+id/imgViewRefund"
+        android:layout_alignEnd="@+id/imgViewRefund"
+        android:layout_alignStart="@+id/imgViewRefund"
         android:elevation="3dp"
         android:paddingBottom="5dp"
         android:text="@string/txt_view_refund"
@@ -216,8 +216,8 @@
         android:id="@+id/button"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imgViewTransactions"
-        android:layout_below="@+id/imgViewTransactions"
+        android:layout_alignStart="@+id/imgViewAdjustment"
+        android:layout_below="@+id/imgViewAdjustment"
         android:layout_marginTop="17dp"
         android:background="@drawable/button_corners_mask"
         android:text="@string/btn_home_more_menu" />

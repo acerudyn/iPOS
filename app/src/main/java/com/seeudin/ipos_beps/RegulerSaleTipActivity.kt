@@ -19,7 +19,7 @@ class RegulerSaleTipActivity : AppCompatActivity() {
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
         btnSignature = findViewById<View>(R.id.btnSignature) as Button
-        btnPinEntry = findViewById<View>(R.id.btnCancel) as Button
+        btnPinEntry = findViewById<View>(R.id.btnConfirm) as Button
 
         imgViewBack.setOnClickListener {
             val intent = Intent(this, RegulerSaleActivity::class.java)

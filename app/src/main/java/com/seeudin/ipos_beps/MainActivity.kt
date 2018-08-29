@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     internal lateinit var imgViewPayment: ImageView
     internal lateinit var imgViewSale: ImageView
     internal lateinit var imgViewVoid: ImageView
+    internal lateinit var imgViewRefund: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         imgViewPayment = findViewById<View>(R.id.imgViewPayment) as ImageView
         imgViewSale = findViewById<View>(R.id.imgViewSale) as ImageView
         imgViewVoid = findViewById<View>(R.id.imgViewVoid) as ImageView
+        imgViewRefund = findViewById<View>(R.id.imgViewRefund) as ImageView
 
         imgViewPayment.setOnClickListener {
             val intent = Intent(this, PaymentActivity::class.java)
@@ -52,6 +54,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         imgViewVoid.setOnClickListener {
+            val intent = Intent(this, PasswordTrxActivity::class.java)
+            startActivity(intent)
+        }
+
+        imgViewRefund.setOnClickListener {
             val intent = Intent(this, PasswordTrxActivity::class.java)
             startActivity(intent)
         }
