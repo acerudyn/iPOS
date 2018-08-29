@@ -37,7 +37,7 @@ class PasswordTrxActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this@PasswordTrxActivity, "INVALID", Toast.LENGTH_SHORT).show()
                 pwdEntry.setText(null)
-                val intent = Intent(this, PinInvalidActivity::class.java)
+                val intent = Intent(this, PassIncorrectActivity::class.java)
                 startActivity(intent)
             }
         }

@@ -9,6 +9,7 @@
     <string name="txt_view_trx_success">Transaction Success</string>
     <string name="txt_view_trx_failed">Transaction Failed</string>
     <string name="txt_view_trx_invalid_pin">Invalid PIN</string>
+    <string name="txt_view_trx_incorrect_pwd">Incorrect Password</string>
     <string name="txt_view_void_card">Please Swipe/Dip/Tap Your Card</string>
     <string name="txt_view_void_card2">Or Choose Payment Other Method Below</string>
     <string name="txt_view_void_contactless">Please Tap Your Card</string>
@@ -17,6 +18,7 @@
     <string name="txt_view_trx_failed_msg">Transaction Failed !</string>
     <string name="txt_view_trx_failed_msg2">Connection Error</string>
     <string name="txt_view_trx_invalid_msg">Invalid PIN !</string>
+    <string name="txt_view_trx_incorrect_pass">Incorrect Password !</string>
     <string name="txt_view_trx_invalid_msg2">Do You Want to Try Again..?</string>
     <string name="txt_view_pin">Pin Entry</string>
     <string name="txt_view_pin_desc">Enter Your PIN</string>

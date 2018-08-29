@@ -29,7 +29,8 @@
         <activity android:name=".PinTrxActivity" />
         <activity android:name=".PinInvalidActivity" />
         <activity android:name=".PasswordTrxActivity" />
-        <activity android:name=".VoidActivity"></activity>
+        <activity android:name=".VoidActivity" />
+        <activity android:name=".PassIncorrectActivity"></activity>
     </application>
 
 </manifest>

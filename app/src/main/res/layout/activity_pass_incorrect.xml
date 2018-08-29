@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/txt_view_trx_invalid_pin"
+            android:text="@string/txt_view_trx_incorrect_pwd"
             android:textColor="@android:color/background_light" />
 
     </RelativeLayout>
@@ -48,7 +48,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imgViewCardOnly"
         android:layout_marginTop="20dp"
-        android:text="@string/txt_view_trx_invalid_msg"
+        android:text="@string/txt_view_trx_incorrect_pass"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -75,7 +75,7 @@
         android:text="@string/btn_trx_no" />
 
     <Button
-        android:id="@+id/btnPinYes"
+        android:id="@+id/btnPwdYes"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/btnPwdNo"

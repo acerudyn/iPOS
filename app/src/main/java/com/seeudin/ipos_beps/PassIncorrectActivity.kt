@@ -7,34 +7,33 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 
-class PinInvalidActivity : AppCompatActivity() {
+class PassIncorrectActivity : AppCompatActivity() {
 
     internal lateinit var imgViewBack: ImageView
-    internal lateinit var btnPinNo: Button
-    internal lateinit var btnPinYes: Button
+    internal lateinit var btnPwdNo: Button
+    internal lateinit var btnPwdYes: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pin_invalid)
+        setContentView(R.layout.activity_pass_incorrect)
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
-        btnPinNo = findViewById<View>(R.id.btnPwdNo) as Button
-        btnPinYes = findViewById<View>(R.id.btnPinYes) as Button
+        btnPwdNo = findViewById<View>(R.id.btnPwdNo) as Button
+        btnPwdYes = findViewById<View>(R.id.btnPwdYes) as Button
 
         imgViewBack.setOnClickListener {
-            val intent = Intent(this, PinTrxActivity::class.java)
+            val intent = Intent(this, PasswordTrxActivity::class.java)
             startActivity(intent)
         }
 
-        btnPinNo.setOnClickListener {
-            val intent = Intent(this, TrxFailedActivity::class.java)
+        btnPwdNo.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        btnPinYes.setOnClickListener {
-            val intent = Intent(this, PinTrxActivity::class.java)
+        btnPwdYes.setOnClickListener {
+            val intent = Intent(this, PasswordTrxActivity::class.java)
             startActivity(intent)
         }
-
     }
 }
