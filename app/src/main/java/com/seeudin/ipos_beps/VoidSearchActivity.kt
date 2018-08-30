@@ -88,6 +88,10 @@ class VoidSearchActivity : AppCompatActivity() {
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, source)
         listItem.adapter = adapter
 
+        listItem.setOnItemClickListener{ adapterView: AdapterView<*>, view1: View, i: Int, l: Long ->
+            val intent = Intent(this, VoidActivity::class.java)
+            startActivity(intent)
+        }
 
         /*
         val relativeLayout = findViewById<View>(R.id.RelativeLayout) as RelativeLayout
