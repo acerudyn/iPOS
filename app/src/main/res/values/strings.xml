@@ -52,6 +52,8 @@
     <string name="btn_trx_void">VOID</string>
 
     <string name="txt_view_void">Void</string>
+    <string name="txt_view_void_search">Void Search</string>
+    <string name="txt_view_search_msg">Search here...</string>
     <string name="txt_view_payment">Payment</string>
     <string name="txt_view_sale">Sale</string>
     <string name="txt_view_settlement">Settlement</string>

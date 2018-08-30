@@ -32,7 +32,7 @@ class PasswordTrxActivity : AppCompatActivity() {
             if (pwdEntry.text.toString() == "Void1234") {
                 Toast.makeText(this@PasswordTrxActivity, "SUCCESS", Toast.LENGTH_SHORT).show()
                 pwdEntry.setText(null)
-                val intent = Intent(this, VoidActivity::class.java)
+                val intent = Intent(this, VoidSearchActivity::class.java)
                 startActivity(intent)
             } else if (pwdEntry.text.toString() == "Refund1234") {
                 Toast.makeText(this@PasswordTrxActivity, "SUCCESS", Toast.LENGTH_SHORT).show()
