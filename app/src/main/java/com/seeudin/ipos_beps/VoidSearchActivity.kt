@@ -36,7 +36,7 @@ class VoidSearchActivity : AppCompatActivity() {
             val msg: String = editTextSearch.text.toString()
 
             if (msg.trim().isNotEmpty()) {
-                val intent = Intent(this, PassIncorrectActivity::class.java)
+                val intent = Intent(this, NoResultActivity::class.java)
                 startActivity(intent)
             }  else {
                 Toast.makeText(this@VoidSearchActivity, "Can't Empty", Toast.LENGTH_SHORT).show()

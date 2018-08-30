@@ -33,7 +33,7 @@
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/imgViewCardOnly"
+        android:id="@+id/imgViewNoResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/app_act_main_actionbar"
@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imgViewCardOnly"
+        android:layout_below="@+id/imgViewNoResult"
         android:layout_marginTop="20dp"
         android:text="@string/txt_view_trx_invalid_msg"
         android:textAlignment="center"
@@ -64,7 +64,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/btnPwdNo"
+        android:id="@+id/btnSrcNo"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -78,9 +78,9 @@
         android:id="@+id/btnPinYes"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnPwdNo"
+        android:layout_alignTop="@+id/btnSrcNo"
         android:layout_marginStart="17dp"
-        android:layout_toEndOf="@+id/btnPwdNo"
+        android:layout_toEndOf="@+id/btnSrcNo"
         android:background="@drawable/button_corners_mask"
         android:text="@string/btn_trx_yes" />
 

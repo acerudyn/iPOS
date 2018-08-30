@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/txt_view_trx_incorrect_pwd"
+            android:text="@string/txt_view_noResult"
             android:textColor="@android:color/background_light" />
 
     </RelativeLayout>
@@ -39,7 +39,7 @@
         android:layout_below="@+id/app_act_main_actionbar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        app:srcCompat="@mipmap/ic_warning" />
+        app:srcCompat="@mipmap/ic_sad" />
 
     <TextView
         android:id="@+id/textView"
@@ -48,7 +48,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imgViewNoResult"
         android:layout_marginTop="20dp"
-        android:text="@string/txt_view_trx_incorrect_pass"
+        android:text="@string/txt_view_noResult_msg"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -75,7 +75,7 @@
         android:text="@string/btn_trx_no" />
 
     <Button
-        android:id="@+id/btnPwdYes"
+        android:id="@+id/btnSrcYes"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/btnSrcNo"

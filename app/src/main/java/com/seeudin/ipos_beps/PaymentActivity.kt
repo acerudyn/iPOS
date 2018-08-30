@@ -19,7 +19,7 @@ class PaymentActivity : AppCompatActivity() {
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
         imgViewCard = findViewById<View>(R.id.imgViewCard) as ImageView
-        imgViewCardOnly = findViewById<View>(R.id.imgViewCardOnly) as ImageView
+        imgViewCardOnly = findViewById<View>(R.id.imgViewNoResult) as ImageView
         imgViewContactless = findViewById<View>(R.id.imgViewContactless) as ImageView
 
         imgViewBack.setOnClickListener {

@@ -33,7 +33,7 @@
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/imgViewCardOnly"
+        android:id="@+id/imgViewNoResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/app_act_main_actionbar"
@@ -45,7 +45,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imgViewCardOnly"
+        android:layout_below="@+id/imgViewNoResult"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/txt_view_void_card" />

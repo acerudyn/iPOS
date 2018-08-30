@@ -24,6 +24,8 @@
     <string name="txt_view_pin_desc">Enter Your PIN</string>
     <string name="txt_view_pwd">Password</string>
     <string name="txt_view_pwd_desc">Input Your Password</string>
+    <string name="txt_view_noResult">No Result</string>
+    <string name="txt_view_noResult_msg">Opss... No Result !</string>
 
     <string name="txt_view_RegulerSale">Reguler Sale</string>
     <string name="txt_view_RegulerSaleConfirm">Reguler Sale Confirm</string>

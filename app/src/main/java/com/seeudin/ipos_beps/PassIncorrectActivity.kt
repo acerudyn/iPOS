@@ -18,7 +18,7 @@ class PassIncorrectActivity : AppCompatActivity() {
         setContentView(R.layout.activity_pass_incorrect)
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
-        btnPwdNo = findViewById<View>(R.id.btnPwdNo) as Button
+        btnPwdNo = findViewById<View>(R.id.btnSrcNo) as Button
         btnPwdYes = findViewById<View>(R.id.btnPwdYes) as Button
 
         imgViewBack.setOnClickListener {

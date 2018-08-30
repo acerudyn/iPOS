@@ -156,7 +156,7 @@
         app:srcCompat="@mipmap/ic_payment_visa" />
 
     <ImageView
-        android:id="@+id/imgViewCardOnly"
+        android:id="@+id/imgViewNoResult"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignStart="@+id/imgViewRefund"
@@ -174,7 +174,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignStart="@+id/imgViewSale"
-        android:layout_alignTop="@+id/imgViewCardOnly"
+        android:layout_alignTop="@+id/imgViewNoResult"
         android:background="@drawable/round_corners_mask"
         android:elevation="3dp"
         android:paddingBottom="15dp"
@@ -199,9 +199,9 @@
         android:id="@+id/txtViewGoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imgViewCardOnly"
-        android:layout_alignEnd="@+id/imgViewCardOnly"
-        android:layout_alignStart="@+id/imgViewCardOnly"
+        android:layout_alignBottom="@+id/imgViewNoResult"
+        android:layout_alignEnd="@+id/imgViewNoResult"
+        android:layout_alignStart="@+id/imgViewNoResult"
         android:elevation="3dp"
         android:paddingBottom="5dp"
         android:text="@string/txt_payment_card_only"

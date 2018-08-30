@@ -7,32 +7,32 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 
-class PinInvalidActivity : AppCompatActivity() {
+class NoResultActivity : AppCompatActivity() {
 
     internal lateinit var imgViewBack: ImageView
-    internal lateinit var btnPinNo: Button
-    internal lateinit var btnPinYes: Button
+    internal lateinit var btnSrcNo: Button
+    internal lateinit var btnSrcYes: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pin_invalid)
+        setContentView(R.layout.activity_no_result)
 
         imgViewBack = findViewById<View>(R.id.imgViewBack) as ImageView
-        btnPinNo = findViewById<View>(R.id.btnSrcNo) as Button
-        btnPinYes = findViewById<View>(R.id.btnPinYes) as Button
+        btnSrcNo = findViewById<View>(R.id.btnSrcNo) as Button
+        btnSrcYes = findViewById<View>(R.id.btnSrcYes) as Button
 
         imgViewBack.setOnClickListener {
-            val intent = Intent(this, PinTrxActivity::class.java)
+            val intent = Intent(this, VoidSearchActivity::class.java)
             startActivity(intent)
         }
 
-        btnPinNo.setOnClickListener {
-            val intent = Intent(this, TrxFailedActivity::class.java)
+        btnSrcNo.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        btnPinYes.setOnClickListener {
-            val intent = Intent(this, PinTrxActivity::class.java)
+        btnSrcYes.setOnClickListener {
+            val intent = Intent(this, VoidSearchActivity::class.java)
             startActivity(intent)
         }
 
